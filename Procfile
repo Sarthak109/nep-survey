@@ -1,1 +1,1 @@
-web: gunicorn app:nepapp
+web: gunicorn nepapp:app
