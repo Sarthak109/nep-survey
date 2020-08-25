@@ -1,1 +1,1 @@
-web: gunicorn nepapp:app
+web: uwsgi uwsgi.ini
