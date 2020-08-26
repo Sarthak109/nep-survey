@@ -681,5 +681,5 @@ def sheet():
     return send_file('/reports.xlsx',attachment_filename="report.xlsx")
 
 
-if __name__=='__main__':        
-    app.run()
+if __name__=='__main__':
+    app.run(threaded=True, port=5000)
