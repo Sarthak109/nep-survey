@@ -678,7 +678,7 @@ def sheet():
         row+=2
         col = 0
     workbook.close()
-    return send_file('/reports.xlsx',attachment_filename="report.xlsx")
+    return send_file('./reports.xlsx',attachment_filename="report.xlsx")
 
 
 if __name__=='__main__':
